@@ -2,8 +2,9 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/navbar";
 import { Shop } from "./pages/shop/shop";
-import { Contact } from "./pages/contact";
+import { Contact } from "./pages/contact/contact";
 import { Cart } from "./pages/cart/cart";
+import { Wishlist } from "./pages/wishlist/wishlist";
 import { ShopContextProvider } from "./context/shop-context";
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Shop />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/wishlist" element={<Wishlist />} />
             <Route path="/cart" element={<Cart />} />
           </Routes>
         </Router>

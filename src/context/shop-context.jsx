@@ -43,6 +43,7 @@ export const ShopContextProvider = (props) => {
 
   const contextValue = {
     cartItems,
+
     addToCart,
     updateCartItemCount,
     removeFromCart,
