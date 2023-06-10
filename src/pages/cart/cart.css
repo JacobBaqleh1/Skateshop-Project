@@ -6,8 +6,8 @@
 }
 
 .cartItem {
-  width: 700px;
-  height: 250px;
+  width: 300px;
+  height: 150px;
   display: flex;
 
   align-items: center;
@@ -18,11 +18,12 @@
 
 .cartItem img {
   width: 200px;
+  height: 150px;
 }
 
 .cartItem .description {
   width: 100%;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .countHandler input {

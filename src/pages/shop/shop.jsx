@@ -6,8 +6,8 @@ export const Shop = () => {
   return (
     <div className="shop">
       <div className="shopTitle">
-        <h1>Shredders Skateshop </h1>
-        <h5>Shredding since 1995</h5>
+        <h1>Rolling Bay Skateshop</h1>
+        <h5>Rolling since 1995</h5>
       </div>
 
       <div className="products">
