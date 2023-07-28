@@ -8,6 +8,8 @@ export const Shop = () => {
       <div className="shopTitle">
         <h1>Rolling Bay Skateshop</h1>
         <h5>Rolling since 1995</h5>
+        <h5>Join Our Mailing List!</h5>
+        <h3>Subscribe</h3>
       </div>
 
       <div className="products">
